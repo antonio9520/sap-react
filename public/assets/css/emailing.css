@@ -1,0 +1,189 @@
+.header-recuperar{
+    background-image: url('../img/bg-password.webp');
+    background-size: cover, contain;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.header-activar{
+    background-image: url('../img/bg-emailing-userdata.jpg');
+    background-size: cover, contain;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.mediafont {
+    text-align: left;
+}
+#rowbuttons{
+    margin-top: 5%;
+}
+.mediaicon{
+    position: static;
+}
+.logo-help{
+    width: 12%;
+    margin: 0px;
+    top: 80px;
+    position: absolute;
+    left: 300px;
+    display: flex;
+}
+.col-md-4{
+    display: block;
+}
+.footer{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+}
+.footer-help{
+    width: 7%;
+}
+#footer-help1{
+    width: 10%;
+}
+.footer p, a{
+    margin: 0px;
+    font-weight: bold;
+    color: grey;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 50%;
+    border-radius: 10px;
+    margin: -70px;
+    padding: 40px;   
+}
+.card p{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}  
+img {
+    border-radius: 5px 5px 0 0;
+}  
+.container {
+    padding: 2px 16px;
+    width: 50%;
+    align-items: left;
+    text-align: left;
+}
+.user-name{
+    color: #187EE6;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+}
+.user-titulo{
+    color: #187EE6;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+}
+.container p{
+    color: grey;
+    text-align: center;
+}
+.d-flex{
+    padding: 10px;
+}
+.ml-5, .mx-5 {
+    margin-left: 3.0rem !important;
+}
+@media (max-width: 1368px){
+    .col-sm-4{
+        display: contents;
+    }
+}
+@media (max-width: 1280px){
+    .col-sm-4{
+        display: block;
+    }
+    .card{
+        width: 100%;
+    }
+    #rowbuttons{
+        display: flex;
+    }
+    #footer-help1{
+        width: 20%;
+    }
+}
+@media (max-width: 1100px){
+    .user-name{
+        margin: 0 auto;
+    }
+    .logo-help{
+        width: 25%;
+        margin: 0 auto;
+        margin-top: 30px;
+        position: relative;   
+        left: 0px;
+    }
+    header{
+        display: flex;
+    }
+    .col-md-4{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    .col-sm-4{
+        display: block;
+        margin: 0 auto;
+        left: 0% !important;
+    }
+    #footer-help1{
+        width: 30%;
+    }
+}
+@media (max-width: 766px){
+    .col-md-3{
+        text-align: center !important;
+    }
+    .logo-help{
+        width: 25%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 600px){
+    .card{
+        width: 100%;
+        top: 100px;
+    }
+    .logo-help{
+        width: 30%;
+    }
+    .ml-5, .mx-5 {
+        margin-left: 2.0rem !important;
+    }
+    #copyfooter{
+        display: contents;
+        text-indent: 1.5em;
+    }
+    .user-name{
+        margin: 0 auto;
+    }
+    #rowbuttons{
+        margin-top: 50px;
+    }
+    .footer-help{
+        width: 15%;
+    }
+    .footer{
+        margin-top: 45%;
+    }
+    #footer-help1{
+        width: 20%;
+    }
+    .header-activar, .header-recuperar{
+        width: 100%;
+        height: 300px;
+        left: 50%;
+        background-position: 50% 50%;
+    }
+}

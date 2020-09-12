@@ -1,0 +1,457 @@
+.imgcontheadear{
+    background: url('../images/brand/User-header-background.jpg') ;
+    background-size: cover;
+    background-position: center;
+    image-resolution: 620px 420px;
+    border-radius: 5px;
+    height: 225px;
+    background-color: darken(rgb(29, 95, 251), 2%);
+}
+
+/* de aqui esta el dash el  y ella*/
+.bg-gradient-primary4{
+    background: linear-gradient(to bottom right, #fffefed5 0%, #ffffffce 80%);
+    height: 100%;
+}
+.bg-gradient-primary4-1{
+    background: linear-gradient(to bottom right, #fffefea1 0%, #ffffffa2 80%);
+    height: 100%;
+}
+.bg-gradient-primary5{
+    background: linear-gradient(to bottom right, #1587eaa9 0%, #074ea06c 80%);
+    height: 225px;
+    margin-right: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+.imgcont{
+    background: url('../images/SapMitrabajos/bg-first-trabajos-woman(1).jpg') ;
+    background-size: cover;
+    height: 395px;
+    width: 399px;
+    background-color: darken(white, 2%);    
+}
+.imgcont2{
+    background: url('../images/brand/SAPTalent-card-habilities-woman-new.png');
+    background-size: cover;
+    border-radius: 5px;
+    background-attachment: local;
+    background-position: center;
+    height: 100%;
+    width: 405px;
+    outline-width: medium;
+}
+.imgcont1{
+    background: url('../images/SAPTADN/bg-first-adnsap-woman.webp') ;
+    background-size: cover;
+    height: 430px;
+    width: 398px;
+    background-color: darken(rgb(29, 95, 251), 2%);
+}
+.imgcont-1{
+    background: url('../images/SapMitrabajos/bg-first-trabajos-man.webp') ;
+    background-size: cover;
+    height: 430px;
+    border-width: 5px;
+    width: 399px;
+    background-color: darken(white, 2%);
+}
+.imgcont2-1{
+    background: url('../images/brand/SAPTalent-card-habilities-man-newmobile.png');
+    background-size: cover;
+    border-radius: 5px;
+    background-attachment: local;
+    background-position: center;
+    height: 100%;
+    width: 405px;
+    outline-width: medium;
+}
+.imgcont1-1{
+    background: url('../images/SAPTADN/bg-first-adnsap-man.webp') ;
+    background-size: cover;
+    height: 430px;
+    width: 398px;
+    background-color: darken(rgb(29, 95, 251), 2%);
+}
+.icolt{
+    margin-left: 30px;
+}
+.mgsabm{
+    margin-left: 205px;
+}
+@media (max-width: 1200px ) {
+    .imgcont2{
+        background: url('../images/brand/SAPTalent-card-habilities-woman-new.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        background-attachment: local;
+        background-position: bottom;
+        margin-top: -24px;
+        height: 100%;
+        outline-width: medium;
+        width: 220px;
+        margin-right: -35px;
+        margin-left: -24px;
+    }
+    .imgcont2-1{
+        background: url('../images/brand/SAPTalent-card-habilities-man-newmobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        background-attachment: local;
+        background-position: bottom;
+        margin-top: -24px;
+        height: 100%;
+        outline-width: medium;
+        width: 220px;
+        margin-right: -35px;
+        margin-left: -24px;
+    }
+    .mgsabm{
+        margin-left: 5px;
+    }
+}
+.sabmas{
+    margin-left: 175px;
+}
+.butmas{
+    margin-left: 105px;
+}
+.pgtl{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.btltc{
+    margin-left: 50px
+}
+.crinf{
+    margin-left: 8px;
+}
+.mgtcd{
+    margin-top: 310px;
+    margin-left: 1px;
+}
+
+@media (max-width: 1280px ) {
+    .sabmas{
+        margin-left: 35px;
+    }
+    .butmas{
+        margin-left: -15px;
+    }
+}
+@media (max-width: 1850px ){
+    .sabmas{
+        margin-left: 95px;
+    }
+    .butmas{
+        margin-left: -25px;
+    }
+}
+@media (max-width: 1199px ){
+    .mgtcd{
+        margin-top: 0px;
+    }
+    .imgcont2{
+        background: url('../images/brand/SAPTalent-card-habilities-woman-newmobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        background-attachment: local;
+        background-position: center;
+        margin-top: 0px;
+        height: 205px;
+        margin-left: 0px;
+        outline-width: medium;
+        width: 220px;
+    }
+    .imgcont2-1{
+        background: url('../images/brand/SAPTalent-card-habilities-man-newmobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        background-attachment: local;
+        background-position: center;
+        margin-top: 0px;
+        height: 205px;
+        margin-left: 0px;
+        outline-width: medium;
+        width: 220px;
+    }
+    .sabmas{
+        margin-left: 155px;
+    }
+}
+@media (max-width: 450px ) {
+    .crinf{
+        margin-left: 0px;
+    }
+    .btltc{
+        margin-left: 15px
+    }
+    .pgtl{
+        margin-left:15px;
+        text-align: center;
+    }
+    .icolt{
+        margin-left: 130px;
+    }
+    .mgtcd{
+        margin-top: 0px;
+        margin-left: 13px;
+    }
+    .imgcont2{
+        background: #fff;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        background-attachment: local;
+        background-position: center;
+        margin-top: 0px;
+        height: 265px;
+        margin-left: 0px;
+        outline-width: medium;
+        width: 220px;   
+    }
+    .imgcont2-1{
+
+        background:#fff;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        background-attachment: local;
+        background-position: center;
+        margin-top: 0px;
+        height: 265px;
+        margin-left: 0px;
+        outline-width: medium;
+        width: 220px;
+    }
+    .butmas{
+        margin-top: -15px;
+        margin-left: 55px;
+    }
+    .imgcont1{
+        background: url('../images/SAPTADN/bg-first-adnsap-woman.webp') ;
+        background-size: cover;
+        height: 430px;
+        width: 398px;
+        margin-left: -20px;
+        background-color: darken(rgb(29, 95, 251), 2%);
+    }
+    .imgcont1-1{
+        background:  url('../images/SAPTADN/bg-first-adnsap-man.webp') ;
+        background-size: cover;
+        height: 430px;
+        width: 398px;
+        margin-left: -20px;
+        background-color: darken(rgb(29, 95, 251), 2%);
+    }
+    .sabmas{
+        margin-left: 85px;
+        text-align: center;
+    }
+    .mgsabm{
+        margin-left: 5px;
+    }
+}
+@media (max-width: 1450px ) {
+    .crinf{
+        margin-left: 0px;
+    }
+    .btltc{
+        margin-left: 15px
+    }
+    .pgtl{
+        margin-left:15px;
+        text-align: center;
+    }
+    .icolt{
+        margin-left: 130px;
+        }
+    .mgtcd{
+        margin-top: 0px;
+        margin-left: 13px;
+    }
+    .imgcont2{
+        background: url('../images/brand/SAPTalent-card-habilities-woman-new.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        background-attachment: local;
+        background-position: center;
+        margin-top: 0px;
+        height: 135px;
+        margin-left: 0px;
+        outline-width: medium;
+        width: 50%;
+    }
+    /*hombre*/
+    .imgcont2-1{
+        background-image: url('../images/brand/SAPTalent-card-habilities-man-newmobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        background-attachment: local;
+        background-position: center;
+        margin-top: 0px;
+        height: 135px;
+        margin-left: 0px;
+        outline-width: medium;
+        width: 220px;
+    }
+    .butmas{
+        margin-top: -10px;
+        margin-left: 55px;
+    }
+    .imgcont1{
+        background: url('../images/SAPTADN/bg-first-adnsap-woman.webp') ;
+        background-size: cover;
+        height: 430px;
+        width: 398px;
+        margin-left: -3px;
+        background-color: darken(rgb(29, 95, 251), 2%);
+    }
+    .imgcont1-1{
+        background:  url('../images/SAPTADN/bg-first-adnsap-man.webp') ;
+        background-size: cover;
+        height: 430px;
+        width: 398px;
+        margin-left: -5px;
+        background-color: darken(rgb(29, 95, 251), 2%);
+    }
+    .sabmas{
+        margin-left: 135px;
+        text-align: center;
+    }
+    .mgsabm{
+        margin-left: 5px;
+    }
+}
+
+.bg-color-blue {
+    background: linear-gradient( to left, #1586EA, #2C4EC9 ) !important;
+}
+.bg-azul {
+    background: linear-gradient( 89.1deg, #1586EA, #2C4EC9 ) !important;
+}
+
+.mgimcn2-1{
+	margin-top: 0px;
+	margin-left: -205px; 
+	border-radius: 5px;
+  }
+ 
+.textable{
+    color: rgb(163, 162, 162);
+}
+
+.color{
+    color: "#FFFFFF";
+}
+
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: white;
+    float: left;
+    padding: 10px 16px;
+    border-radius: 100px;
+    margin-left: 5px;
+    background-color: rgb(29, 95, 251);
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination a.active {
+    background-color: rgb(29, 95, 251);
+    color: white;
+    border: 1px solid rgb(29, 95, 251);
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  .btnborder {
+    border-width: 0px;      
+    background-color: whitesmoke;
+    border-radius: 10px;
+  }
+  .inpbor {
+    border-width: 0px;  
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border-color: whitesmoke;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  .inpbor[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  .pgimg {
+    margin-bottom: 15px; margin-top: -65px;
+  }
+  .carmg2{
+    margin-top: -190px; margin-left: -415px;
+  }
+  .busho{
+    margin-bottom: -50px; margin-right: 10px; margin-left: 450px; padding-top: 20px;
+  }
+  @media (max-width: 1280px){
+    .icolt{
+        margin-left: 0;
+    }
+  }
+  @media(max-width: 1366px){
+    .icolt{
+        margin-left: 30px;
+    }
+    .tarjeta-home{
+        
+    }
+  }
+  @media (max-width: 1450px ) {
+    .pgimg {
+        margin-bottom: 15px; margin-top: -65px; margin-left: -25px;
+      }
+
+      .pagination {
+        display: inline-block;
+      }
+      
+      .pagination a {
+        color: white;
+        float: left;
+        padding: 6px 12px;
+        border-radius: 100px;
+        margin-left: 2px;
+        background-color: rgb(29, 95, 251);
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+      }
+
+      .carmg2{
+        margin-top: -205px; margin-left: -275px; padding: 6px;
+      }
+      .busho{
+        margin-bottom: -50px;  margin-left: -110px; padding-top: 20px;
+      }
+      .offset-9 {
+          margin-left: -5px;
+      }
+  }
+
+ 

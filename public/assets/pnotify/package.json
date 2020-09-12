@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@pnotify/animate": "^5.1.2",
+    "@pnotify/bootstrap3": "^5.1.2",
+    "@pnotify/bootstrap4": "^5.1.2",
+    "@pnotify/confirm": "^5.1.2",
+    "@pnotify/core": "^5.1.2",
+    "@pnotify/countdown": "^5.1.2",
+    "@pnotify/desktop": "^5.1.2",
+    "@pnotify/font-awesome4": "^5.1.2",
+    "@pnotify/font-awesome5": "^5.1.2",
+    "@pnotify/glyphicon": "^5.1.2",
+    "@pnotify/mobile": "^5.1.2"
+  }
+}

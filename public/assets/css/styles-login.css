@@ -1,0 +1,192 @@
+@import url(new-styles-login.css);
+
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    font-family: Helvetica,Neue;
+}
+.card.show {
+    display: block !important
+}
+.card {
+    height: auto;
+    display: none;
+    background-position: right;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #E0F7FA;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2)
+}
+@media (max-width: 768px){
+    .card{
+        height: 100%;
+        width: auto;
+        margin-right: 0;
+        background-position: top;
+        background-size: 100% 120%;
+    }
+}
+.heading {
+    margin-top: -10px;
+}
+.centrar{
+    text-align: center;
+    margin-left: 32%;
+}
+input, datalist{
+    padding: 8px 25px 8px 25px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    color: #888;
+}
+textarea,
+button {
+    padding: 8px 25px 8px 25px;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    background-color: #ECEFF1;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid green !important;
+    outline-width: 0
+}
+button {
+    width: 120px;
+    letter-spacing: 2px
+}
+
+.form-control {
+    min-height: 28px;
+    background: #fff;
+    border-color: #e3e3e3;
+    background-color: #F3F8FD;
+    border-color: #BAE1F2;
+    box-shadow: none !important;
+    border-radius: 4px;
+}
+.form-control:focus {
+    border-color: #99c432;
+}
+.social-btn {
+    margin-left: 12%;
+    color: #fff;
+    width: 73%;
+}
+@media (max-width: 768px){
+    .social-btn{
+        margin-left: 10%;
+        width: 70%;       
+    }
+}
+.social-btn .btn {      
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: left;
+}
+@media(max-width: 768px){
+    .social-btn .btn {
+        font-size: 9px;
+        width: 125%;
+    }   
+}
+.social-btn .btn:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    color: #fff;
+}   
+.social-btn .btn-primary {
+    background: #507cc0;
+}
+.social-btn .btn-info {
+    background: #64ccf1;
+}
+.social-btn .btn-danger {
+    background: #df4930;
+}
+.social-btn .btn i {
+    float: left;
+    margin: 1px 10px 0 5px;
+    min-width: 20px;
+    font-size: 18px;
+}
+@media (max-width: 768px){
+    .col-lg-9{
+        width: 90%;
+    }
+    .col-md-11{
+        width: 90%;
+    }
+    .col-12{
+        width: 90%;
+    }
+}
+.gris2{
+    margin-top: -30px;
+    color: #888;
+    width: 50%;
+    font-size: 25px;
+}
+.gris-color{
+    color: #888;
+}
+.bg-image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: inherit;
+    z-index: 0;
+}
+.blue{
+    color: #2a88e7;
+}
+.btn-start{
+    align-items: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.img-logo{
+    position: absolute;
+    width: 180px;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+.centrar-2{
+    margin-top: 85px;
+    text-align: center !important;
+}
+.centrar-3{
+    margin-top: 30px;
+    text-align: center;
+}
+.img-logo{
+    position: absolute;
+    width: 130px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+@media (min-width: 768px){
+    body{
+        background-image: url('../img/bg-welcome.webp');
+        background-size: 100%;
+    }
+}
